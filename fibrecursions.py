@@ -16,7 +16,8 @@ def fibhead(num):
 
 
 def fibtail(num,a=0,b=1):
-
+    #Accumulators are used in tail recursion as a way of communicating a partial result down through 
+    #the recursive call chain without requiring extra space to be used at each level of the recursion
     if num == 0:
         return a
 
